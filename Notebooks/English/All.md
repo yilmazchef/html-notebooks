@@ -1,31 +1,11 @@
-<p align="center">
-    <img src="_examples-html5-essentials/assets/images/html5.png" alt="HTML5 (HyperText Markup Language) Essentials logo" title="HTML5 (HyperText Markup Language) Essentials" width="200" />
-</p>
+# HTML5 Essentials
 
-HTML5 Essentials
 =====================
 
 HTML is the language that powers the web. With HTML you can create your web pages/website. This course provides an in-depth look at the essentials: the syntax of HTML and best practices for writing and editing your code. Will learn HTML, Document structure, block and inline-level tags, floating images, controlling white space, phrase and font markup, list, links, and tables.
 
-### Prerequisites for current course / What you need to know
+>> Prerequisites for current course / What you need to know
 There are no prerequisites as such for current courses/lessons. It's an added advantage if you know basic concepts like Web, Internet, web page, URL, images, etc. It's advisable to view [Web Design Development Foundations-Web Technology Fundamentals](https://github.com/dinanathsj29/web-design-development-fundamentals) before dive deeper into HTML5 content.
-
-Topics include
-=====================
-
-1. [Course Introduction](#section-1-course-introduction)
-2. [Introducing HTML](#section-2-introducing-html)
-    - 2a. [Introducing XHTML](#section-2a-introducing-xhtml)
-    - 2b. [Introducing HTML5](#section-2b-introducing-html5)
-3. [Basic page structure](#section-3-basic-page-structure)
-4. [Formatting page content](#section-4-formatting-page-content)
-5. [Structuring content](#section-5-structuring-content)
-6. [List - Creating Lists](#section-6-creating-lists)
-7. [Link - Creating Links](#section-7-creating-links)
-8. [Table - Working with Table](#section-8-working-with-table)
-9. [Form - Dealing with Forms](#section-9-dealing-with-forms)
-10. [HTML Layout](#section-10-html-layout)
-11. [What's the next step?](#section-11-whats-the-next-step)
 
 Section 1. Course Introduction
 =====================
