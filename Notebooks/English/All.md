@@ -11,6 +11,7 @@ Section 1. Course Introduction
 =====================
 
 ### 1.1. Welcome
+
 Hi All, I'm **`Dinanath Jayaswal, Senior UI/Web Developer and Adobe Certified Expert Professional`**, I wanna welcome you to HTML5 Essentials. This course will take an in-depth look at HTML/HTML5, will learn Syntax and Semantics of HTML. Will also focus on best practices to implement while writing and editing HTML. Here will start by learning what is HTML, Basic HTML Document/Page structure, How to write and format page content, creating a list, link, table, and many more things.
 
 Section 2. Introducing HTML
@@ -18,7 +19,7 @@ Section 2. Introducing HTML
 
 ### 2.1. Importance
 
-### 3 pillars / core Languages/Technologies used for Front End Web Design/Development:
+### 3 pillars / core Languages/Technologies used for Front End Web Design/Development
 
 1. **`HTML (HyperText Markup Language) - Markup language, essential page structure/content, readable and convey structure to the user, text layout model, page mark-up, text, tags, data, details for pages, images, tables, anchor links, forms`**
     - HTML is an acronym that stands for `HyperText Markup Language` which is used for creating `web pages and web applications
@@ -31,6 +32,7 @@ Section 2. Introducing HTML
     - JavaScript is a `scripting language of the web that allows you to do interactivity with the user, implement conditions and validations, dynamic updates in a web page, etc.
 
 > **Syntax & Example**:
+
 ```html
 <html>
 
@@ -47,6 +49,7 @@ Section 2. Introducing HTML
 ```
 
 ### 2.2. HTML (HyperText Markup Language)
+
 - HTML stands for `HyperText Markup Language`
 - The Standard/foundation/gateway/most widely used language used for developing/creating/structuring content on the web
 - We can create a static website by HTML only
@@ -57,25 +60,27 @@ Section 2. Introducing HTML
 - HyperText Markup Language, used to MARK the content what exactly it is ie `<p> = Paragraph, <header> = Header, <table> = table` etc..
 
 ### 2.3. What is HTML?
+
 - HTML is an acronym that stands for `HyperText Markup Language` which is used for creating `web pages and web applications`.
 - HTML is not a programming language; it is a markup language that defines the structure of your content
-    - **Hyper Text**:
-        - HyperText simply means `"Text within Text."` A text that has a link within it, is a hypertext. HyperText is a way to link two or more web pages (HTML documents) with each other.
-        - Hypertext refers to the way in which/how `Web pages (HTML documents) are linked together. Thus, the link available on a webpage is called Hypertext.
-    - **Markup language**: 
-        - A markup language is a computer language that is used to `apply layout and formatting conventions to a text document`. Markup language makes the text more interactive and dynamic. It can turn text into images, tables, links, lists, headings, etc.
-        - HTML is a Markup Language which means you use HTML to simply "mark-up" a text document with tags that tell a Web browser how to structure it to display.
-    - **Web Page**: 
-        - A web page is a document that is commonly written in HTML and translated by a web browser. A web page can be identified by entering an URL. A Web page can be of the static or dynamic type. With the help of HTML only, we can create static web pages.
+  - **Hyper Text**:
+    - HyperText simply means `"Text within Text."` A text that has a link within it, is a hypertext. HyperText is a way to link two or more web pages (HTML documents) with each other.
+    - Hypertext refers to the way in which/how `Web pages (HTML documents) are linked together. Thus, the link available on a webpage is called Hypertext.
+  - **Markup language**:
+    - A markup language is a computer language that is used to `apply layout and formatting conventions to a text document`. Markup language makes the text more interactive and dynamic. It can turn text into images, tables, links, lists, headings, etc.
+    - HTML is a Markup Language which means you use HTML to simply "mark-up" a text document with tags that tell a Web browser how to structure it to display.
+  - **Web Page**:
+    - A web page is a document that is commonly written in HTML and translated by a web browser. A web page can be identified by entering an URL. A Web page can be of the static or dynamic type. With the help of HTML only, we can create static web pages.
 
 ### 2.4. Prerequisites of using HTML (HyperText Markup Language)
+
 #### Tools for building web sites-web pages/writing HTML
 
 1. **Text Editor/HTML Editor** - `NotePad, NotePad++, SublimeText, Atom, Brackets, Coda, Visual Studio Code, DreamWeaver` etc.
     - An HTML file (.html / .htm) is a text file itself consists of HTML tags/elements, so to create/modify an HTML file we can use any text editors.
 2. **Browsers To view output of .html pages** - `Google Chrome, Mozilla Firefox, Internet Explorer, Safari` etc.
     - Once the .html/.htm file is created and saved, we can see its output in any latest web browser.
-    
+
 <p>
   <figure>
     &nbsp;&nbsp;&nbsp; <img src="./_examples-html5-essentials/assets/images/browers_all_2.png" alt="Widely used modern browsers image" title="Widely used modern browsers" width="400" border="2" />
@@ -84,7 +89,9 @@ Section 2. Introducing HTML
 </p>
 
 ### 2.5. Basic HTML Document
+
 > **Syntax & Example**:
+
 ```html
 <!DOCTYPE html>
 
@@ -106,6 +113,7 @@ Section 2. Introducing HTML
 ```
 
 ### 2.6 Building blocks of HTML (Tag Attribute Element)
+
 An HTML document consist of its basic building blocks:
 
 | Name / Item     | Description                             |
@@ -115,29 +123,34 @@ An HTML document consist of its basic building blocks:
 | Elements        | An HTML element is an individual component of an HTML file. In an HTML file, everything `written within tags` is termed as HTML elements |
 
 > **Syntax & Example**:
+
 ```html
 <tag attribute="attribute value"> content: whole together is an element </tag >   
 ```
 
 > **Syntax & Example**:
+
 ```html
 <h1 align="right">Heading 1 aligned to right </h1>
 ```
 
 ### 2.7 Tag
+
 - HTML tags are like keywords which defines that how web browser will format and display the content `<p>, <h1>, <table>, <strong>`
-- HTML is a markup language and makes use of various tags to format the content 
+- HTML is a markup language and makes use of various tags to format the content
 - Tags are enclosed within angle braces `<Tag>`
 - Except few tags, most of the tags have their corresponding closing tags. ```<Tag> </Tag> , <Tag />, <p> </p>, <h1> </h1>, <br />, <hr /> <link />```
 - When a web browser reads an HTML document, browser reads it from top to bottom and left to right
 - HTML tags are used to create HTML documents and render their properties
 
 > **Syntax & Example**:
+
 ```html
 <tag> content </tag >  
 ```
 
 > **Syntax & Example**:
+
 ```html
 <h1>HTML Tags: Various tags used to develope web page.</h1>
 <h3>Heading: Welcome Welcome to HTML</h3>
@@ -149,6 +162,7 @@ An HTML document consist of its basic building blocks:
 ```
 
 ### 2.8 Attribute
+
 - HTML attributes are special words that `provide additional information about the elements` or attributes are the modifier of the HTML element
 - Each element or tag can have attributes, which defines the `characteristics/behavior` of that element
 - Attributes should always be applied with start-tag
@@ -156,11 +170,13 @@ An HTML document consist of its basic building blocks:
 - Attribute names and attribute values are case-insensitive
 
 > **Syntax & Example**:
+
 ```html
 <tag attribute="attribute value"> content </tag >   
 ```
 
 > **Syntax & Example**:
+
 ```html
 <h1 class="headings" id="heading1"> Heading 1 </h1 >  
 <p align="right"> Paragraphic text </p>
@@ -171,35 +187,42 @@ An HTML document consist of its basic building blocks:
 ```
 
 ### 2.9 Element
+
 - An HTML file is made of elements
 - Elements are responsible for creating web pages and define content in that webpage
-- An element in HTML usually consist of a `start tag <tagName>, close tag </tagName>` and content inserted between them 
+- An element in HTML usually consist of a `start tag <tagName>, close tag </tagName>` and content inserted between them
 
 > **Syntax & Example**:
+
 ```html
 <tag attribute="attribute value"> content: whole together is an element </tag >
 ```
 
 > **Syntax & Example**:
+
 ```html
 <h1 align="right">Heading 1 aligned to right </h1>
 ```
 
-### 2.10. HTML Syntax     
+### 2.10. HTML Syntax
+
 - HTML Syntax is very simple easy to learn
 - HTML Contents/Documents ie files are nothing but a simple text files only with `.htm` or `.html` extention
 - HTML page consists of `DTD & TAGS` for different visual aspects
 - HTML uses `TAGS` to markup and identify page content
 - `<start_tag> Some content here </end_tag>` **Example**: `<p> p is paragraph tag used to create paragraphics text.</p>`
-- An HTML Element = `<tag attribute="attribute value"> content: whole together is an element </tag > `  
+- An HTML Element = `<tag attribute="attribute value"> content: whole together is an element </tag >`  
 - We can create contents with `nested elements` like `<tag1><tag2>Some Content </tag2></tag1>` **Example**: `<p><strong>I am bold paragraphic text</strong></p>`
 
 #### **Types of Attributes**
+
 1. **Informative Attribute** - gives extra information about an element. **Example**: lang="en", class="header", id="container1"
-2. **Functional Attribute** - very important who perform some activities. **Example**: href="index.html", src="script.js" 
+2. **Functional Attribute** - very important who perform some activities. **Example**: href="index.html", src="script.js"
 
 ### 2.11. State (Evolution of HTML)
+
 The Web is changing very fast and so HTML
+
 #### History of HTML
 
 | Year          | History       |
@@ -217,43 +240,54 @@ The Web is changing very fast and so HTML
 | 2014          | W3C Recommendation: HTML5                                                                                                         |
 
 #### The Current State of HTML
+
 **There are two specifications of HTML: (*Not much changes with syntax*)**
+
 1. W3C (World Wide Web Consortium)
 2. WHATWG (Web Hypertext Application Technology Working Group)
 
 #### What should you focus on?
+
 There is no good reason not to learn the HTML5 syntax. Focus on learning the elements and syntax first. Gradually learn the new capabilities in HTML5, once you become comfortable with writing clean HTML.
 
 ### 2.12. Reference
+
 Some important and valuable references / resorces:
-- https://www.w3.org/TR/html53/
-- https://www.w3.org/TR/2010/WD-html5-20100624/
-- https://html.spec.whatwg.org/multipage/
-- https://webplatform.github.io/docs/html/
-- https://developer.mozilla.org/en-US/
+
+- <https://www.w3.org/TR/html53/>
+- <https://www.w3.org/TR/2010/WD-html5-20100624/>
+- <https://html.spec.whatwg.org/multipage/>
+- <https://webplatform.github.io/docs/html/>
+- <https://developer.mozilla.org/en-US/>
 
 ### 2.13. Editor
+
 #### Choosing a Code/HTML/Text Editor
+
 - Any modern Text Editor can work (Not a word editor)
+
 > **Note**: A good code/HTML/text editor can speed up the process of writing and editing code, also highlights syntax errors.
 
-**Code/HTML/Text Editor Features:** The latest text editors must-have features like: 
+**Code/HTML/Text Editor Features:** The latest text editors must-have features like:
+
 - auto-text
 - auto type of code
 - Indentation style
-- syntax highlighting, 
+- syntax highlighting,
 - auto code completion (Intelligent code completion)
 - Spell checker
 - autosave
 - live preview etc.
 
 #### text editor VS visual editor (WYSIWYG - (wizzy-wig or What You See Is What You Get))
+
 The web development world has two types of HTML editing programs:
+
 1. **Text-based HTML editor**
     - Text editors are more often used for writing code
     - Developer Prefers
     - It is better to have little programming to knowledge to type code
-    - Initially, more coding needed 
+    - Initially, more coding needed
     - **Example**: Adobe Brackets, SublimeText, Atom, Notepad, Notepad++
 
 2. **Visual WYSIWYG, wizzy-wig OR What You See Is What You Get editor**
@@ -269,9 +303,11 @@ Section 2a. Introducing XHTML
 XHTML is HTML written/defined as an XML application. XHTML stands for Extensible Hypertext Markup Language.
 
 #### Prerequisite
+
 Before learning XHTML, you must have a basic knowledge of HTML.
 
 ### 2a.1. What is XHTML?
+
 - XHTML stands for Extensible Hypertext Markup Language
 - XHTML is almost identical/similar/same as HTML but it is more important to create your code correctly, because XHTML is stricter than HTML in syntax and case sensitivity
 - XHTML is introduced to set Browser Compatibility and display similar O/P in various browsers as per Web 2.0 standards. Also to create and follow stricter/standard/well-formed code standards
@@ -279,7 +315,9 @@ Before learning XHTML, you must have a basic knowledge of HTML.
 - XHTML is HTML redesigned as XML. It helps you to create better formatted code on your site
 
 ### 2a.2. HTML vs XHTML?
+
 There are some changes in XHTML as compared to HTML. These changes can be categorized in below parts (The Most Important Differences from HTML):
+
 1. Changes in Document Structure
     - All documents must have a DOCTYPE (XHTML DOCTYPE is mandatory)
 2. Changes in XHTML Tags (XHTML Elements)
@@ -289,8 +327,10 @@ There are some changes in XHTML as compared to HTML. These changes can be catego
 3. Changes in XHTML Attributes
     - All XHTML attributes must be **quoted and added properly**
 
-### 2a.3. XHTML 
+### 2a.3. XHTML
+
 > **Syntax & Example**:
+
 ```html
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -311,29 +351,36 @@ There are some changes in XHTML as compared to HTML. These changes can be catego
 Section 2b. Introducing HTML5
 =====================
 
-HTML5 is the next generation of HTML. 
+HTML5 is the next generation of HTML.
 
 #### Prerequisite
+
 Before learning HTML5, you must have a basic knowledge of HTML, XHTML, CSS.
 
 ### 2b.1. What is HTML5?
+
 HTML5 is the latest version of Hypertext Markup Language, the code that describes web pages. HTML5 is a co-operation of W3C (World Wide Web Consortium) and WHATWG(Web Hypertext Application Technology Working Group).
 
 ### 2b.2. Why HTML5?
+
 There are many features related to DTD, Tags, Elements, attributes, APIs introduced in HTML:
+
 - It allows you to play a video and audio file
 - It facilitates you to design better forms (form 2.0)
 - Reduce the usage of the external plugin (Features added in the browser so that no need to use external plugins like SWF player, java applets or so)
 
 #### New HTML5 Tags/Elements
+
 - HTML5 Semantic elements: `<header>, <footer>, <nav>, <section>, <article>, <aside>`
 - Graphic elements: `<svg>, <canvas>`
 - Multimedia/Interactive elements: `<audio>, <video>`
 
 #### New HTML5 Form attributes
+
 - New Form 2.0 attributes: number, date, time, calendar, color, file, range
 
 #### New HTML5 API's (Application Programming Interfaces)
+
 - HTML Geolocation
 - HTML Local Storage
 - HTML Application Cache
@@ -341,7 +388,9 @@ There are many features related to DTD, Tags, Elements, attributes, APIs introdu
 - HTML Web Workers
 
 ### 2b.3. HTML5
+
 > **Syntax & Example**:
+
 ```html
 <!DOCTYPE html>
     <html>
@@ -361,25 +410,31 @@ Section 3. Basic Page Structure
 =====================
 
 ### 3.1. Explore
+
 Let's have a look and observe an HTML source code in the browser:
+
 1. Open any existing .html file in the browser, in our case open `structure.html`
 2. Check the page source or Inspect page with Debugger utilities like: `FireBug, Inspect/ Inspect Element` (in browser -> Right Click on page -> choose Inspect Element -> Check/observe actual HTML code/tags).
 
 #### Doctype DTD (Document Type Declaration OR Document Type Definition)
+
 - First line of an HTML document - `!DOCTYPE html`
 - It instructs Browsers/User Agents which version of html used for rendering
 
 #### HEAD Section
-- All external references in the form of styles, scripts, and third-party plug-ins themes, etc. 
+
+- All external references in the form of styles, scripts, and third-party plug-ins themes, etc.
 - Also consists of additional instructions on how the document will render on different devices
-- HEAD section contains non-visible instructions, non-visual elements 
+- HEAD section contains non-visible instructions, non-visual elements
 
 #### BODY Section
+
 - All page contents which are visible on the page in the browser
 - Body section consists of visible instructions, visual elements
 - Example: paragraph, images, list, tables, links, etc.
 
 ### 3.2. Doctype DTD (Document Type Declaration OR Document Type Definition)
+
 - Usually the first line of an HTML page, its an instruction to the web browser about what version of HTML the page is written and rules to parse/render.
 - Browsers use a DOCTYPE at the beginning of the document to decide whether to handle it in quirks mode (non-standard behavior in the browser)or standards mode (supports all behavior).
 - The <!DOCTYPE> declaration is *not case sensitive*.
@@ -388,13 +443,16 @@ Let's have a look and observe an HTML source code in the browser:
 | HTML Version    | DTD           |
 | -------------   |---------------|
 | HTML5           |  Document Type Declaration (`<!DOCTYPE html>`) |
-| XHTML           |  Document Type Definition (.DTD file) `<!DOC TYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">` | 
+| XHTML           |  Document Type Definition (.DTD file) `<!DOC TYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">` |
 | HTML4           |  Document Type Definition (.DTD file) `<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">` |
 
 ### 3.3. Head
+
 - `<HEAD>` section of document contains functional information which is not visible on document.
 - The `<head>` element contains meta information about the document
+
 > **Syntax & Example**:
+
 ```html
 <head>
 
@@ -409,8 +467,10 @@ Let's have a look and observe an HTML source code in the browser:
 ```
 
 ### 3.4. Body
+
 `<BODY>` section/element contains all contents visible in browser window/ on web page.
 > **Syntax & Example**:
+
 ```html
 <body>
   <h1>Basic HTML Page Structure</h1>
@@ -426,34 +486,38 @@ Let's have a look and observe an HTML source code in the browser:
 ```
 
 ### 3.5. Model
+
 #### Different Tag/Element category
+
 Tags are divided into different categories based on:
+
 1. **`Output`**
-    1. **Block Level elements** - 
+    1. **Block Level elements** -
         - Block level element own next line, always shows output on next line
         - Block level element starts on a new line, and create a line break before and after the element
         - Example Tags: `<p>, <div>, <form>, <header>, <nav>, <ul>, <li>, and <h1>`
-    2. **In-line elements** - 
+    2. **In-line elements** -
         - Inline elements are comes in flow of document, content shown in same line
         - Inline elements displays output in same line, it only take up the amount of space the content occupies
         - Example Tags: `<a>, <span>, <strong>, <em>, <u>, <b>, <i> <font>, <center>`
 2. **`Closing`**
-    1. **Container Tags / Paired Tags** - 
+    1. **Container Tags / Paired Tags** -
         - Container Tags usually travel in pairs
         - A container tag is one which has to be closed
         - Example Tags: `<html>, <head>, <title>, <body>, <p>, <h1> to <h6>, <strong>`
-    2. **Stand-alone / Unclosed Tags / Empty Tags / Non-Container Tags** - 
+    2. **Stand-alone / Unclosed Tags / Empty Tags / Non-Container Tags** -
         - A few tags are don't contains any content - they are stand alone.
         - Some HTML tags are not closed with end tag, they start and close at the same place
         - Example Tags: `<br />, <hr />, <link /> <img />`
 
 #### Understanding Content Models / Tag Content Model
+
 - `Content Models / Tag Content Model` defines the type of content expected inside an element, and also control syntax rules such as element structure/nesting (DOM)
-- Website: 
-    - https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html, 
-    - https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories
+- Website:
+  - <https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html>,
+  - <https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories>
 - **other tag types are**:
-    1. phrasing content         : `<canvas>, <code>, <data>, <label>, <mark>` 
+    1. phrasing content         : `<canvas>, <code>, <data>, <label>, <mark>`
     2. interactive content  : `<a>, <button>, <select>, <textarea>, <audio>, <video>, <menu>`
     3. metadata content         : `<title>, <link>, <script>, <noscript>, <meta>`
     4. sectioning content       : `<header>, <footer>, <nav>, <section>, <article>, <aside>`
@@ -465,6 +529,7 @@ Section 4. Formatting Page Content
 =====================
 
 ### 4.1. Format
+
 - HTML Formatting is a process of formatting text for better look and feel, visibility
 - Formatting elements were designed to display special types of text without using CSS
 
@@ -476,29 +541,33 @@ Section 4. Formatting Page Content
 | `<i>`             | Italic text                                 |
 | `<u>`             | Underline text                              |
 | `<mark>`          | marked or highlighted text:                 |
-| `<sub>`           | Subscript text                              | 
-| `<sup>`           | Superscript text                            | 
-| `<big>`           | increase font size by one conventional unit | 
-| `<small>`         | Small text                                  | 
-| `<del>`           | Deleted text                                | 
-| `<tt>`            | monospaced font                             | 
+| `<sub>`           | Subscript text                              |
+| `<sup>`           | Superscript text                            |
+| `<big>`           | increase font size by one conventional unit |
+| `<small>`         | Small text                                  |
+| `<del>`           | Deleted text                                |
+| `<tt>`            | monospaced font                             |
 
 ### 4.2. Headings
-- Headings are used to structure pages and determine content hierarchy. 
-- Headings/Heading Sectioning Elements are defined with the `<h1> to <h6> `tags.
+
+- Headings are used to structure pages and determine content hierarchy.
+- Headings/Heading Sectioning Elements are defined with the `<h1> to <h6>`tags.
 - `<h1>` defines the most important/largest/biggest heading. `<h6>` defines the least important/smallest heading.
 
 ### 4.3. Paragraphs
+
 - The HTML `<p>` element represent/defines a paragraph
 - Paragraphs are block-level elements (always goes to next line), and will automatically close if another block-level element is parsed before the closing `</p>` tag.
 - Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or the first-line indentation
 
 ### 4.4. Breaks
+
 - We use `<br />` in case we want a line break (a new line) without starting a new paragraph
 - Sometimes we need to have Hard-Return in our content (poems, quotes) without starting a new paragraph, there line break `<br />` is useful.
-- `<br /> `is a standalone tag, which means we need to start and close at the same place like: `<br />`
+- `<br />`is a standalone tag, which means we need to start and close at the same place like: `<br />`
 
 ### 4.5. Emphasizing
+
 - `<b>` bold tag simply means bold text without any extra importance just a presentation
 - `<strong>` tag have meaning like strongly emphasizing Bold Important text
 - `<i>` element defines the italic text, without any extra importance
@@ -506,11 +575,13 @@ Section 4. Formatting Page Content
 - For Screen Readers or Accessibility purpose `<strong> & <em>` semantic tags are playing an important role
 
 ### 4.6. Special Characters / HTML Entity (Named character entity)
+
 - HTML Entity represents special characters like &, copyright sign, a registered sign
-- Entities are frequently used to display reserved characters 
+- Entities are frequently used to display reserved characters
 - Also, we can use Entities in place of other characters that are not available on the keyboard/difficult to type with a standard keyboard
-- Entity always start with & ampersand sign and ends with; semicolon (**Example: &lt;**) 
-- https://dev.w3.org/html5/html-author/charref
+- Entity always start with & ampersand sign and ends with; semicolon (**Example: &lt;**)
+- <https://dev.w3.org/html5/html-author/charref>
+
 > **Note**: Browsers may not support all entity names
 
 | String/Character    | Description / Note                      | Entity Name   | Entity Number   |
@@ -529,13 +600,17 @@ Section 4. Formatting Page Content
 | TM                  | Trade Mark sign                         | `&trade;`       | `&#8482;`         |
 
 ### 4.6. White spaces
+
 - By default, browsers ignore the white spaces inserted in content after 1st space
 - `&nbsp;` non-breaking space entity is used to insert extra white space
+
 > **Note**: Default only 1 space is identified/rendered by the browser
 > **Note**: Many browsers blocks `&nbsp;` entity considering junk/spam, advisable to use CSS and apply margin/padding accordingly
 
 ### 4.8. Images
+
 #### There are many formats of photos/pictures/images/Web Graphics used on the web
+
 - BMP (Bitmap)
 - GIF (Graphics Interchange Format)
 - JPEG / JPG (Joint Photographic Experts Group)
@@ -543,6 +618,7 @@ Section 4. Formatting Page Content
 - SVG (Scalable Vector Graphics)
 
 #### `img` tag
+
 - Images are one of the most important and integral parts of a web page used to improve the design and the appearance of a web page
 - In HTML, images are embedded/defined/imported/placed with the `<img>` tag.
 - The `src` attribute is required, it specifies/contains the path (the URL/web address) of the image you want to embed
@@ -550,25 +626,29 @@ Section 4. Formatting Page Content
 - The `<img>` tag is a standalone/empty tag, it contains attributes only, and does not have a closing tag.
 
 ### 4.9. Font (Not Supported in HTML5)
+
 - Fonts play a very important role in making a website more user-friendly and increasing content readability
 - HTML `<font>` tag is used to define the font style for the text contained within it
 - The font tag is having three attributes called `face, size, and color`
-- The `<font>` tag defines/specifies the font face, font size, and color of the text 
+- The `<font>` tag defines/specifies the font face, font size, and color of the text
 
 Section 5. Structuring Content
 =====================
 
 ### 5.1. Structure
+
 - HTML allows us to structure the document as per the meaning of the content
 - Div, Table tags are used to create structure, layout but its not semantic
-- HTML Semantic Tags - Structure of the webpage to show meaning, not just layout 
+- HTML Semantic Tags - Structure of the webpage to show meaning, not just layout
 - HTML Semantic Structural/Sectioning Elements helps to create pages more readable, accessible, better search engine results-oriented, easy to modify/update
 - A semantic element clearly describes its meaning to both the browser and the developer
+
 > **Note**: HTML5 semantic elements are supported in all modern browsers.
 
 #### HTML Heading Sectioning Elements
+
 h1 to h6 (total 6 headings are available)
-                      
+
 #### HTML5 Semantic Structural/Sectioning Elements
 
 | Tag               | Use                                                 |
@@ -582,6 +662,7 @@ h1 to h6 (total 6 headings are available)
 | `<footer>`        | Defines a footer for a document or section          |
 
 #### Why HTML5 Semantic Structural/Sectioning Elements introduced?
+
 - Earlier with HTML, developers used/created their own id/class names to style elements like header, footer, top nav, bottom nav, main menu, nav - navigation, main left right top bottom container, content, left article, right-sidebar, etc.
 - This made it difficult and impossible for search engines to identify the correct web page content also a developer to the browser and edit content
 - With the new HTML5 semantic/meaningful elements like (`<header> <footer> <nav> <section> <article> <aside>`), this will become easier
@@ -589,16 +670,20 @@ h1 to h6 (total 6 headings are available)
 - > According to the W3C, a Semantic Web: "Allows data to be shared and reused across applications, enterprises, and communities."
 
 #### Implementing structural hierarchy
+
 It's really up to you what exactly the elements involved represent, as long as the hierarchy makes sense. You just need to bear in mind a few best practices as you create such structures:
+
 - Preferably you should just `use a single <h1> per page` — this is the top-level heading, and all others sit below this in the hierarchy.
 - Make sure you use the headings in the correct order in the hierarchy. Don't use `<h3>s` to represent subheadings, followed by `<h2>s` to represent subheadings — that doesn't make sense and will lead to weird results.
 
 #### Why do we need structure?
+
 - Users looking at a web page tend to scan quickly to find relevant content. If they can't see anything useful within a few seconds, they'll likely get frustrated and go somewhere else.
 - Search engines indexing your page consider the contents of headings as important keywords for influencing the page's search rankings. Without headings, your page will perform poorly in terms of `SEO (Search Engine Optimization)`.
 - Visually impaired people often don't read web pages; they listen to them instead.  If headings are not available, they will be forced to listen to the whole document read out loud.
 
 ### 5.2. Div
+
 - The div tag is known as `Division, Divider tag`
 - The HTML Content Division element (`<div>`) is the generic container for flow content
 - Before HTML5 Semantic Tags, the Div tag is used in HTML to make divisions of content in the web page like (text, images, header, footer, navigation bar, etc)
@@ -609,10 +694,11 @@ It's really up to you what exactly the elements involved represent, as long as t
 - It is used to the group of various tags of HTML so that sections can be created and style can be applied to them
 
 ### 5.3. Outlines
+
 - HTML uses Semantic Elements, Headings, Semantic Tags to generate/describe the Document Outline of page content (Document Outline = Topics, Table of Contents, Index)
 - Document Outline is used by devices/browsers to scan & search content, navigate to a particular/specific section, also to determine how contents relate to each other
 - HTML5 Outliner is used to understand & know the exact outline ie page structure of the HTML page/document
-- Use outliner utility: https://gsnedders.html5.org/outliner/
+- Use outliner utility: <https://gsnedders.html5.org/outliner/>
 - Text Editor like Brackets uses a `Document Outliner Plugin/extension` to show proper document outline/table of contents/topics/Indexing of page
 - Brackets -> View menu -> Show Document Outline
 
@@ -642,16 +728,19 @@ Section 6. Creating Lists
 | `<dd>`            | Describes the term in a description list            |
 
 ### 6.1. Unordered List or Bulleted List
+
 - An Unordered List is a collection of related items that have no special order or sequence
 - Unordered List is created by using HTML `<ul>` tag. Each item in the list `<li>` is marked with a bullet/rendered as a bulleted list
 - `<li>` List Item, `type` attribute helps to specify the type of bullet `disc/circle/square/none`
 
 ### 6.2. Ordered List or Numbered List
+
 - The HTML `<ol>` element represents an ordered list of items, typically rendered as a numbered list
 - Ordered List is created by using HTML `<ol>` tag. Each item in the list `<li>` is marked with a number or an order in ascending/descending
 - `<li>` List Item, `type` attribute helps to specify the type of order `1/A/a/I/i`
 
 ### 6.3. Description List or Definition List
+
 - Description List or Definition List represents entries list like in a dictionary or encyclopedia
 - Description List or Definition List is the ideal way to present a glossary, list of terms, or another name/value list
 - A description list is a list of terms, with a description of each term
@@ -663,7 +752,8 @@ Section 7. Creating Links
 - A webpage can contain various links/hyperlinks that take you directly to other pages and even specific parts of a given page
 - Hyperlinks allow visitors to navigate between Web sites by clicking on words, phrases, and images.
 
-### 7.1. Anchor `<a>` 
+### 7.1. Anchor `<a>`
+
 - A link is specified using HTML tag `<a>`, also is called `anchor tag`
 - The HTML `<a>` (anchor element) creates a hyperlink to other web pages, files, locations within the same page, email addresses, or any other URL.
 - The `href` attribute is the most important attribute which specifies links to destination page or URL `href="url path"`
@@ -672,11 +762,13 @@ Section 7. Creating Links
 - `rel` attribute describes relationship of current linked object and target object, `rel="next/downnload/help/author"`
 
 > **Syntax & Example**:
+
 ```html
 <a href="url-path" title="accessible" target="_blank" rel="next/prev/help/download">Content</a>
 ```
 
 > **Syntax & Example**:
+
 ```html
 <a href="http://www.google.com" title="Click to visit Google">Visit Google.com</a>
 ```
@@ -684,6 +776,7 @@ Section 7. Creating Links
 ### 7.2 internal external links
 
 > **Syntax & Example**:
+
 ```html
 <a href="./07.01.link.anchor.html"title="visit links" >Links example 1</a> <br/> <br/>
 
@@ -691,9 +784,11 @@ Section 7. Creating Links
 ```
 
 ### 7.3 download links
+
 - Ability to download some file or resource
 
 > **Syntax & Example**:
+
 ```html
 <a href="help.pdf" title="download help pdf" download>Download Help PDF</a>
 
@@ -705,6 +800,7 @@ in this scenario, "_help123.pdf" will be renamed with "html_help.pdf"
 ```
 
 ### 7.4 fragment identifiers / anchor #links
+
 - #Anchors helps to jump to a specific section of current (within)/other linked URL/file
 - Need to Define and linked to the ID of the specific element
 
@@ -716,8 +812,9 @@ Section 8. Working with Table
 - HTML table tag display data in tabular form (row * column). There can be many columns in a row
 - We can create a table to display data in tabular form, using `<table>` element, with the help of `<tr> , <td>, and <th>` elements
 - Table row is defined by `<tr>` tag, the table header is defined by `<th>`, and table data cells is defined by `<td>`
-- HTML tables are used to manage the layout of the page e.g. header section, navigation bar, body content, footer section, etc. 
-> **Note**: But it is recommended to use a div tag over the table to manage the layout of the page 
+- HTML tables are used to manage the layout of the page e.g. header section, navigation bar, body content, footer section, etc.
+
+> **Note**: But it is recommended to use a div tag over the table to manage the layout of the page
 
 #### HTML Table Tags
 
@@ -732,7 +829,9 @@ Section 8. Working with Table
 | `<tfoot>`         | Group the footer content in a table                 |
 
 ### 8.1. Creating Basic Table
+
 > **Syntax & Example**:
+
 ```html
 <table>
 
@@ -783,10 +882,12 @@ Section 9. Dealing with Forms
 - An HTML form is a section of a document that contains controls such as text fields, password fields, checkboxes, radio buttons, submit button, etc.
 - An HTML form facilitates the user to enter data that is to be sent to the server for processing such as name, email address, password, phone number, etc.
 - The `<form>` tag is used to create an HTML form to take input from a user
-- The `<input>` element is a fundamental form element that creates different form components with the `type` attribute 
+- The `<input>` element is a fundamental form element that creates different form components with the `type` attribute
 
 ### 9.1. Creating Basic Form
+
 > **Syntax & Example**:
+
 ```html
 <form name="enrollmentForm" action="#" method="post">
 
@@ -870,11 +971,13 @@ Section 10. HTML Layout
 - Creating an HTML Web layout is not difficult at all. All you need to know are a few tags that help in constructing an eye-catching design for a new website
 - Advanced website layouts can be achieved using a combination of HTML and CSS
 - Most modern websites and blogs consist of an HTML5 Semantic tag-based layout like header, footer, navbar, perhaps another sidebar, the main content area
-- HTML has several elements that can be used to define each of these areas. These include the main, header, footer, nav, aside, and article elements. 
+- HTML has several elements that can be used to define each of these areas. These include the main, header, footer, nav, aside, and article elements.
 - Also, the div element is a generic block-level element that can be used for grouping HTML elements to create Web layout
 
-###  HTML Layout Techniques
+### HTML Layout Techniques
+
 There are different ways to create multicolumn layouts. Each way/layout technique has its pros and cons:
+
 1. **HTML Layout using Tables `(not recommended)`**
     - Use Table, tr, td tag to create a whole layout
     - Table-based layouts are not at all flexible and difficult to manage and modify
@@ -891,16 +994,18 @@ There are different ways to create multicolumn layouts. Each way/layout techniqu
     - Create layout faster and quicker by using a framework like Bootstrap,W3.CSS or so
 6. **CSS grid Layout**
     - The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.
-    - The CSS grid layout is a new layout model optimized for two-dimensional layouts. 
+    - The CSS grid layout is a new layout model optimized for two-dimensional layouts.
     - It's ideal for website layouts, forms, image galleries, and anything that requires precise and responsive positioning.
 
 ### 10.1. Creating Table-based Layout `(not recommended)`
+
 - The purpose of the `<table>` element is to display tabular data
 - The simplest and most popular way of creating layouts is using HTML `<table>` tag. These tables are arranged in columns and rows, so you can utilize these rows and columns in whatever way you like.
 - The `<table>` element was not designed to be a layout tool! Before the introduction to Div tag, web designers/developers use to follow table-based layout
+
 > **Note**: Do not use tables for your page layout! They will make code length, tedious and brings a mess into your code
 
 Section 11. What's the Next Step?
 =====================
 
-Brilliant job! You have done it! Thank You for looking into HTML5 Essentials/Fundamentals. I hope now you have better understandings of how HTML5 works. To learn more about HTML5 specifications visit [Latest HTML5 specifications](https://www.w3.org/TR/html53/) and https://html.spec.whatwg.org/. Your next step could be Mastering HTML5 Advanced features or look into [designing & styling with CSS3 fundamentals](https://github.com/dinanathsj29/css3-fundamentals). Best of Luck! Happy Learning! 
+Brilliant job! You have done it! Thank You for looking into HTML5 Essentials/Fundamentals. I hope now you have better understandings of how HTML5 works. To learn more about HTML5 specifications visit [Latest HTML5 specifications](https://www.w3.org/TR/html53/) and <https://html.spec.whatwg.org/>. Your next step could be Mastering HTML5 Advanced features or look into [designing & styling with CSS3 fundamentals](https://github.com/dinanathsj29/css3-fundamentals). Best of Luck! Happy Learning!
